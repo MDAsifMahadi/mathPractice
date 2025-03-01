@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Math App | Asif Mahadi</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Math App</h1>
+    </div>
+    <div class="inst">
+        <h3>How to use:</h3>
+        <p>
+            To get a random number, press the "new one" button below.
+            Select the length from the options below to specify the number length.
+            To determine addition, subtraction, multiplication, division, one of the options must be determined.
+        </p>
+        <button class="translate">Translate to Bangla</button>
+        <button class="english">Translate to English</button>
+        
+    </div>
+    <div class="body">
+      
+        <h3>Do the math below:</h3>
+        <div class="math">
+
+            <h4 id="num1">?</h4>
+            <select id="optSim">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <h4 id="num2">?</h4>
+        </div>
+        <div class="select">
+            <select id="optForNum1">
+                <option value="1000">3</option>
+                <option value="10000">4</option>
+                <option value="100000">5</option>
+                <option value="1000000">6</option>
+                <option value="10000000">7</option>
+                <option value="100000000">8</option>
+            </select>
+            <button id="newNum">New One</button>
+            <select id="optForNum2">
+                <option value="100">2</option>
+                <option value="1000">3</option>
+                <option value="10000">4</option>
+                <option value="100000">5</option>
+                <option value="1000000">6</option>
+            </select>
+        </div>
+      
+    </div>
+    <div class="futer">
+        <h3>Check whether the number is done or not</h3>
+        <button id="Calculator">Calculat the value</button>
+        <div class="ra">
+            <span></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

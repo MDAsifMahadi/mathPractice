@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Preahvihear&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Englebert", cursive;
+    height: 100vh;
+}
+.header{
+    padding: 30px;
+    background-color: rgb(54, 54, 54);
+}
+.header h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.inst{
+    width: 80%;
+    margin: 10px auto;
+    background-color: bisque;
+}
+.inst h3{
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    border-radius: 5px;
+}
+.inst p{
+    background-color: beige;
+    padding: 5px;
+    line-height: 1.3;
+}
+.inst button{
+    width: 130px;
+    margin: 5px;
+    padding: 3px 3px;
+    background-color: rgba(250, 235, 215, 0.281);
+    color: rgb(39, 39, 39);
+    font-weight: 800;
+    box-shadow: 2px 2px 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.inst button:hover{
+    background-color: rgb(185, 185, 185);
+    color: rgb(32, 32, 32);
+    box-shadow: 5px 5px 8px black;
+}
+.body{
+    background-color: rgb(110, 110, 110);
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 3em;
+}
+.body h3{
+    width: 200px;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 5px;
+    color: rgb(247, 247, 247);
+    background-color: rgba(110, 110, 110, 0.349);
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px;
+}
+.math{
+    max-width: 500px;
+    padding: 0 10px;
+    height: 4em;
+    margin: 20px auto;
+    background-color: rgba(172, 255, 255, 0.637);
+    border-radius: 10px;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.math h4{
+    font-size: 1.5em;
+    text-align: center;
+    min-width: 100px;
+    height: 2em;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: beige;
+    border: 2px solid rgb(80, 191, 255);
+}
+.select{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.select select{
+    width: 3em;
+}
+select{
+    width: 1.9em;
+    font-size: 1.8em;
+    background-color: beige;
+    border: 2px solid rgb(80, 191, 255);
+    text-align: center;
+    border-radius: 7px;
+}
+#newNum{
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Englebert", cursive;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.futer{
+    margin-top: 10px;
+    height: 200px;
+    padding: 20px;
+    background: rgba(172, 255, 255, 0.637);
+}
+.futer h3{
+    font-size: 20px;
+    text-align: center;
+}
+.futer button{
+    padding: 7px 15px;
+    margin: 10px ;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Englebert", cursive;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.ra{
+    display: none;
+}
+.ra span{
+    border-radius: 5px;
+    padding: 5px 5px;
+    background: beige;
+    font-size: 24px;
+    font-weight: 800;
+}
